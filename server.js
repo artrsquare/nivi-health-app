@@ -59,3 +59,5 @@ const PORT = 3001;
 app.listen(PORT, () => {
     console.log(`🚀 Nivi Server running! Open your browser to http://localhost:${PORT}`);
 });
+// THE VERCEL FIX: This tells Vercel how to read your Express app
+export default app;
